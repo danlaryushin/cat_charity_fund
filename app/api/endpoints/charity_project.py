@@ -45,8 +45,7 @@ async def create_new_project(
 async def get_all_projects(
     session: AsyncSession = Depends(get_async_session),
 ):
-    all_projects = await charity_project_crud.get_multi(session)
-    return all_projects
+    return await charity_project_crud.get_multi(session)
 
 
 @router.patch(
@@ -66,8 +65,7 @@ async def partially_update_project(
     if update_data.full_amount is not None:
         check_invested_sum(patch_project, update_data.full_amount)
 
-    project = await charity_project_crud.update(patch_project, update_data, session)
-    return project
+    return await charity_project_crud.update(patch_project, update_data, session)
 
 
 @router.delete(
@@ -78,5 +76,4 @@ async def partially_update_project(
 async def remove_project(id: int, session: AsyncSession = Depends(get_async_session)):
     project = await check_exist(id, session)
     check_already_invested(project)
-    project = await charity_project_crud.remove(project, session)
-    return project
+    return await charity_project_crud.remove(project, session)

@@ -1,9 +1,9 @@
-![Python](https://img.shields.io/badge/-Python-222324?style=for-the-badje&logo=Python&logoColor=yellow)
-![FastAPI](https://img.shields.io/badge/-FastAPI-222324?style=for-the-badje&logo=FastAPI&logoColor=ffffff&color=043A6B)
-![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-222324?style=for-the-badje&logo=SQLAlchemy&logoColor=ffffff&color=043A6B)
-![Alembic](https://img.shields.io/badge/-Alembic-222324?style=for-the-badje&logo=Alembic&logoColor=ffffff&color=043A6B)
-![Pydantic](https://img.shields.io/badge/-Pydantic-222324?style=for-the-badje&logo=Pydantic&logoColor=ffffff&color=043A6B)
-![Asyncio](https://img.shields.io/badge/-Asyncio-222324?style=for-the-badje&logo=Asyncio&logoColor=ffffff&color=043A6B)
+![Python](https://img.shields.io/badge/-Python-222324?style=for-the-badge&logo=Python&logoColor=yellow)
+![FastAPI](https://img.shields.io/badge/-FastAPI-222324?style=for-the-badge&logo=FastAPI&logoColor=ffffff&color=043A6B)
+![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-222324?style=for-the-badge&logo=SQLAlchemy&logoColor=ffffff&color=043A6B)
+![Alembic](https://img.shields.io/badge/-Alembic-222324?style=for-the-badge&logo=Alembic&logoColor=ffffff&color=043A6B)
+![Pydantic](https://img.shields.io/badge/-Pydantic-222324?style=for-the-badge&logo=Pydantic&logoColor=ffffff&color=043A6B)
+![Asyncio](https://img.shields.io/badge/-Asyncio-222324?style=for-the-badge&logo=Asyncio&logoColor=ffffff&color=043A6B)
 
 # Приложение QRKot
 
